@@ -1,6 +1,6 @@
 # Kiln
 
-**Fourteen mixing plugins for Logic Pro, fired for heavy, dreamy rock.**
+**Fifteen mixing plugins for Logic Pro, fired for heavy, dreamy rock.**
 
 This repository holds the ready-to-install downloads. Each plugin does one job, with a few
 big controls instead of a wall of numbers, and each comes in its own colour.
@@ -21,6 +21,7 @@ big controls instead of a wall of numbers, and each comes in its own colour.
 | **Kiln Caliper** | Pitch correction | Tuned to the band. Pitch correction that listens to your guitars and bass to find the key, can follow the chords they're holding, and leaves breaths and whispers alone. |
 | **Kiln Spyhole** | Mix analyzer | See inside the mix. Unbiased ears. |
 | **Kiln Coil** | Snare | Wound tight. One Fat dial for a thick, loud snare. |
+| **Kiln Damper** | Vocal gate | Drums out, singer in. A gate that rides like a fader and learns how your drums bleed into the vocal mic. |
 
 ## Install
 
@@ -60,6 +61,8 @@ VST3 for other hosts.
   the top of its window and pick your guitar or bass track.
 - **Kiln Spyhole**: put one on each group (set its Role) and one on the stereo out set to
   **Master**, then play the song. The Master window lists what to look at.
+- **Kiln Damper** hears the drums through the side chain too: pick your drum bus in its
+  **Side Chain** menu. It learns the bleed by itself, or press **Learn** during a drums-only part.
 - **Kiln Raku**, **Lip**, **Hearth** and **Wheel** widen a mono track: insert them as
   **Mono → Stereo**.
 
