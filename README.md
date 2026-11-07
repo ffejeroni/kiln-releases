@@ -25,19 +25,33 @@ big controls instead of a wall of numbers, and each comes in its own colour.
 
 ## Install
 
-**With the Kiln menu-bar app (easiest)**
+**With one line in Terminal (easiest)**
 
-1. Download **Kiln-Installer.zip** from the [latest release](../../releases/tag/latest), unzip it,
-   and drag **Kiln.app** into Applications.
-2. The first time, macOS blocks it because it isn't signed with a paid Apple developer
-   certificate yet. Either try to open it once, then go to **System Settings → Privacy & Security**
-   and click **Open Anyway**; or run this once in Terminal:
+Open Terminal (Applications → Utilities → Terminal), paste this and press Return:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ffejeroni/kiln-releases/main/install.sh | bash
+```
+
+It downloads the Kiln menu-bar app, puts it in Applications and opens it. Because Terminal does
+the download, macOS doesn't block it. Run it again any time to get the newest app.
+Then click the flame in the menu bar and choose **Install all**, or install plugins one at a time.
+The flame changes to a circled flame when updates are waiting. If Logic was open:
+**Settings → Plug-in Manager → Reset & Rescan Selection**.
+
+**With the Kiln menu-bar app, downloaded by hand**
+
+1. Download **Kiln-Installer.zip** from the [latest release](../../releases/tag/latest) and unzip
+   it. It includes **Install Instructions.txt** with these steps.
+2. Drag **Kiln.app** into Applications.
+3. The first time, macOS blocks it because it isn't signed with a paid Apple developer
+   certificate yet. Either run this once in Terminal:
    ```bash
    xattr -dr com.apple.quarantine /Applications/Kiln.app
    ```
-3. Click the flame in the menu bar and choose **Install all**, or install plugins one at a time.
-   The flame changes to a circled flame when updates are waiting.
-4. If Logic was open: **Settings → Plug-in Manager → Reset & Rescan Selection**.
+   or try to open it once, then go to **System Settings → Privacy & Security** and click
+   **Open Anyway**.
+4. Click the flame in the menu bar and install the plugins, as above.
 
 **By hand**
 
