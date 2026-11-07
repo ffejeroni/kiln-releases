@@ -1,6 +1,6 @@
 # Kiln
 
-**Thirteen mixing plugins for Logic Pro, fired for heavy, dreamy rock.**
+**Fourteen mixing plugins for Logic Pro, fired for heavy, dreamy rock.**
 
 This repository holds the ready-to-install downloads. Each plugin does one job, with a few
 big controls instead of a wall of numbers, and each comes in its own colour.
@@ -20,6 +20,7 @@ big controls instead of a wall of numbers, and each comes in its own colour.
 | **Kiln Hearth** | Reverb | Space, kept warm. Five rooms, one lush engine. |
 | **Kiln Caliper** | Pitch correction | Tuned to the band. Pitch correction that listens to your guitars and bass to find the key, can follow the chords they're holding, and leaves breaths and whispers alone. |
 | **Kiln Spyhole** | Mix analyzer | See inside the mix. Unbiased ears. |
+| **Kiln Coil** | Snare | Wound tight. One Fat dial for a thick, loud snare. |
 
 ## Install
 
@@ -27,8 +28,12 @@ big controls instead of a wall of numbers, and each comes in its own colour.
 
 1. Download **Kiln-Installer.zip** from the [latest release](../../releases/tag/latest), unzip it,
    and drag **Kiln.app** into Applications.
-2. The first time, right-click Kiln.app and choose **Open**, then **Open** again. (It isn't signed
-   with a paid Apple developer certificate, so macOS asks once.)
+2. The first time, macOS blocks it because it isn't signed with a paid Apple developer
+   certificate yet. Either try to open it once, then go to **System Settings → Privacy & Security**
+   and click **Open Anyway**; or run this once in Terminal:
+   ```bash
+   xattr -dr com.apple.quarantine /Applications/Kiln.app
+   ```
 3. Click the flame in the menu bar and choose **Install all**, or install plugins one at a time.
    The flame changes to a circled flame when updates are waiting.
 4. If Logic was open: **Settings → Plug-in Manager → Reset & Rescan Selection**.
