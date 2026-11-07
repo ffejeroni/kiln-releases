@@ -1,2 +1,67 @@
-# kiln-releases
-Public release channel for Kiln
+# Kiln
+
+**Thirteen mixing plugins for Logic Pro, fired for heavy, dreamy rock.**
+
+This repository holds the ready-to-install downloads. Each plugin does one job, with a few
+big controls instead of a wall of numbers, and each comes in its own colour.
+
+| Plugin | For | What it does |
+| --- | --- | --- |
+| **Kiln Wedge** | Drums | Drums that hit. One strip for every drum. |
+| **Kiln Foot** | Bass | The ground the song stands on. Amp voices from a clean DI to full fuzz, blended so the low end never thins out. |
+| **Kiln Grog** | Guitars | All the grit. None of the pain. Amp voices for DI guitars, or straight shaping for tracks already through an amp. |
+| **Kiln Lip** | Vocals | The voice, up front. A complete vocal chain in one window: gate, de-ess, tone, two stages of compression, warmth and a built-in double. |
+| **Kiln Ember** | Revive | Breathe on it. For tracks that went flat. |
+| **Kiln Cone** | Tube warmth | Heat, measured. Tube saturation with the controls of real hardware: four preamps, up to four tubes, bias, sag, and the slight mismatch between channels. |
+| **Kiln Rib** | EQ | Shape the profile. Four big knobs when you want speed, a live curve when you want detail, and three moves that fix the common problems for you. |
+| **Kiln Glaze** | Mix bus | The final coat. The last plugin on the mix: bus compression, low-end control, tone, tube colour and loudness to streaming targets, with fair A/B built in. |
+| **Kiln Wheel** | Chorus | Five choruses, one wheel. From the shimmering '80s pedal to string-machine ensemble to natural double-tracking, each mode with its own voices and motion. |
+| **Kiln Raku** | Shoegaze | A wall of sound on one dial. Built for shoegaze. |
+| **Kiln Hearth** | Reverb | Space, kept warm. Five rooms, one lush engine. |
+| **Kiln Caliper** | Pitch correction | Tuned to the band. Pitch correction that listens to your guitars and bass to find the key, can follow the chords they're holding, and leaves breaths and whispers alone. |
+| **Kiln Spyhole** | Mix analyzer | See inside the mix. Unbiased ears. |
+
+## Install
+
+**With the Kiln menu-bar app (easiest)**
+
+1. Download **Kiln-Installer.zip** from the [latest release](../../releases/tag/latest), unzip it,
+   and drag **Kiln.app** into Applications.
+2. The first time, right-click Kiln.app and choose **Open**, then **Open** again. (It isn't signed
+   with a paid Apple developer certificate, so macOS asks once.)
+3. Click the flame in the menu bar and choose **Install all**, or install plugins one at a time.
+   The flame changes to a circled flame when updates are waiting.
+4. If Logic was open: **Settings → Plug-in Manager → Reset & Rescan Selection**.
+
+**By hand**
+
+1. Download **Kiln-mac-arm64.zip** from the [latest release](../../releases/tag/latest) and unzip it.
+2. Copy the `.component` files to `~/Library/Audio/Plug-Ins/Components` (and the `.vst3` files
+   to `~/Library/Audio/Plug-Ins/VST3` for other hosts). In Finder, use **Go → Go to Folder**.
+3. Clear the download quarantine once, in Terminal:
+   ```bash
+   xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/Components/Kiln*.component
+   ```
+4. In Logic, rescan as above. The plugins appear under **Audio FX → Audio Units → Kiln**.
+
+## Requirements
+
+Apple Silicon Mac, macOS 12 or later (the menu-bar app needs macOS 13). AU for Logic Pro;
+VST3 for other hosts.
+
+## Tips
+
+- **Kiln Caliper** hears your band through Logic's side chain: open the **Side Chain** menu at
+  the top of its window and pick your guitar or bass track.
+- **Kiln Spyhole**: put one on each group (set its Role) and one on the stereo out set to
+  **Master**, then play the song. The Master window lists what to look at.
+- **Kiln Raku**, **Lip**, **Hearth** and **Wheel** widen a mono track: insert them as
+  **Mono → Stereo**.
+
+## Licence
+
+Kiln is licensed to you under the [Kiln End-User Licence Agreement](EULA.md): use it on your own
+computers for any music, personal or commercial; just don't copy its code or redistribute it.
+
+The plugin interfaces use Inter by Rasmus Andersson, under the SIL Open Font License
+(`LICENSE-Inter.txt`).
