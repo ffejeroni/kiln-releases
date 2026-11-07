@@ -1,6 +1,6 @@
 # Kiln
 
-**Fifteen mixing plugins for Logic Pro, fired for heavy, dreamy rock.**
+**Sixteen mixing plugins for Logic Pro, fired for heavy, dreamy rock.**
 
 This repository holds the ready-to-install downloads. Each plugin does one job, with a few
 big controls instead of a wall of numbers, and each comes in its own colour.
@@ -19,8 +19,9 @@ big controls instead of a wall of numbers, and each comes in its own colour.
 | **Kiln Raku** | Shoegaze | A wall of sound on one dial. Built for shoegaze. |
 | **Kiln Hearth** | Reverb | Space, kept warm. Five rooms, one lush engine. |
 | **Kiln Caliper** | Pitch correction | Tuned to the band. Pitch correction that listens to your guitars and bass to find the key, can follow the chords they're holding, and leaves breaths and whispers alone. |
-| **Kiln Spyhole** | Mix analyzer | See inside the mix. Unbiased ears. |
+| **Kiln Firing** | Mix analyzer and guide | See inside the mix. Unbiased ears. (Formerly Spyhole.) |
 | **Kiln Coil** | Snare | Wound tight. One Fat dial for a thick, loud snare. |
+| **Kiln Slake** | Track prep | First on every track. Brings a quiet recording up to a healthy level and clears out the hum, rumble and hiss that came with it. |
 | **Kiln Damper** | Vocal gate | Drums out, singer in. A gate that rides like a fader and learns how your drums bleed into the vocal mic. |
 
 ## Install
@@ -36,6 +37,7 @@ curl -fsSL https://raw.githubusercontent.com/ffejeroni/kiln-releases/main/instal
 It downloads the Kiln menu-bar app, puts it in Applications and opens it. Because Terminal does
 the download, macOS doesn't block it. Run it again any time to get the newest app.
 Then click the flame in the menu bar and choose **Install all**, or install plugins one at a time.
+Later, **Update all** updates only the plugins you have; new ones show up under **Install new**.
 The flame changes to a circled flame when updates are waiting. If Logic was open:
 **Settings → Plug-in Manager → Reset & Rescan Selection**.
 
@@ -73,7 +75,7 @@ VST3 for other hosts.
 
 - **Kiln Caliper** hears your band through Logic's side chain: open the **Side Chain** menu at
   the top of its window and pick your guitar or bass track.
-- **Kiln Spyhole**: put one on each group (set its Role) and one on the stereo out set to
+- **Kiln Firing** (formerly Spyhole): put one on each group (set its Role) and one on the stereo out set to
   **Master**, then play the song. The Master window lists what to look at.
 - **Kiln Damper** hears the drums through the side chain too: pick your drum bus in its
   **Side Chain** menu. It learns the bleed by itself, or press **Learn** during a drums-only part.
