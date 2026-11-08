@@ -11,7 +11,7 @@ big controls instead of a wall of numbers, and each comes in its own colour.
 | **Kiln Foot** | Bass | The ground the song stands on. Amp voices from a clean DI to full fuzz, blended so the low end never thins out. |
 | **Kiln Grog** | Guitars | All the grit. None of the pain. Amp voices for DI guitars, or straight shaping for tracks already through an amp. |
 | **Kiln Lip** | Vocals | The voice, up front. A complete vocal chain in one window: gate, de-ess, tone, two stages of compression, warmth and a built-in double. |
-| **Kiln Ember** | Revive | Breathe on it. For tracks that went flat. |
+| **Kiln Ember** | Restore | Breathe on it. For tracks that went flat. |
 | **Kiln Cone** | Tube warmth | Heat, measured. Tube saturation with the controls of real hardware: four preamps, up to four tubes, bias, sag, and the slight mismatch between channels. |
 | **Kiln Rib** | EQ | Shape the profile. Four big knobs when you want speed, a live curve when you want detail, and three moves that fix the common problems for you. |
 | **Kiln Glaze** | Mix bus | The final coat. The last plugin on the mix: bus compression, low-end control, tone, tube colour and loudness to streaming targets, with fair A/B built in. |

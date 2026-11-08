@@ -8,16 +8,23 @@ Kiln you agree to it. It's written to be read, so here it is in plain English.
 
 ## 1. What you can do
 
-- **Use Kiln to make music.** On any computer you personally use, for personal or commercial
-  work, in as many projects as you like.
+- **Use Kiln to make music.** On up to three of your own computers at a time, for personal or
+  commercial work, in as many projects as you like. You can move it to a new computer from your
+  account on the website.
 - **Keep everything you make.** Audio you make with Kiln is yours, with no royalties, credits
   or permission needed, including in released and commercial music.
 - **Share your presets.** Presets you save are yours to share however you like.
-- **Try it.** If you're using Kiln without a licence, it still works. If it earns a place in
-  your mixes, please buy it; that's what keeps it going.
+- **Try it.** Every plugin works fully for a 14-day free trial (and one 7-day extension from your
+  account). After that, an unlicensed plugin still opens and keeps your settings, but passes
+  audio through unchanged until you buy it.
 
 A licence covers the plugin you bought it for, or every Kiln plugin if you bought Everything,
 including updates to those plugins while we keep making them.
+
+**Gifts.** Kaolin, Flux, Feldspar and Frit can't be bought: they come with joining the mailing
+list, referring a friend, or an Everything purchase, as described on the website. A gift lasts
+as long as what earned it does (Kaolin goes back to passing audio through if you leave the
+mailing list within 30 days; a gift earned with a purchase goes if that purchase is refunded).
 
 ## 2. What you can't do
 
@@ -25,7 +32,7 @@ including updates to those plugins while we keep making them.
   algorithms or artwork, and don't use them in another product.
 - **Don't resell or redistribute Kiln.** Don't sell, rent, upload or bundle Kiln, its installers
   or its licence keys, and don't pass off Kiln or a modified version of it as your own.
-- **Don't share your licence key publicly.** It's for you.
+- **Don't share your account or licence.** It's for you and your own computers.
 
 That's it. Taking our work and shipping it as someone else's product is the one thing we would
 act on.
