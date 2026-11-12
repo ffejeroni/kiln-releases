@@ -17,9 +17,9 @@ big controls instead of a wall of numbers, and each comes in its own colour.
 | **Kiln Glaze** | Mix bus | The final coat. The last plugin on the mix: bus compression, low-end control, tone, tube colour and loudness to streaming targets, with fair A/B built in. |
 | **Kiln Wheel** | Chorus | Five choruses, one wheel. From the shimmering '80s pedal to string-machine ensemble to natural double-tracking, each mode with its own voices and motion. |
 | **Kiln Raku** | Shoegaze | A wall of sound on one dial. Built for shoegaze. |
-| **Kiln Hearth** | Reverb | Space, kept warm. Five rooms, one lush engine. |
+| **Kiln Hearth** | Reverb | Space, kept warm. Room, Chamber, Plate, Hall and Shimmer. |
 | **Kiln Caliper** | Pitch correction | Tuned to the band. Pitch correction that listens to your guitars and bass to find the key, can follow the chords they're holding, and leaves breaths and whispers alone. |
-| **Kiln Firing** | Mix analyzer and guide | See inside the mix. Unbiased ears. (Formerly Spyhole.) |
+| **Kiln Firing** | Mix analyzer and guide | A second set of ears that doesn't get tired. (Formerly Spyhole.) |
 | **Kiln Coil** | Snare | Wound tight. One Fat dial for a thick, loud snare. |
 | **Kiln Slake** | Track prep | First on every track. Brings a quiet recording up to a healthy level and clears out the hum, rumble and hiss that came with it. |
 | **Kiln Damper** | Vocal gate | Drums out, singer in. A gate that rides like a fader and learns how your drums bleed into the vocal mic. |
@@ -65,6 +65,20 @@ The flame changes to a circled flame when updates are waiting. If Logic was open
    xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/Components/Kiln*.component
    ```
 4. In Logic, rescan as above. The plugins appear under **Audio FX → Audio Units → Kiln**.
+
+
+## Windows and Linux (in testing)
+
+Every release also has Windows and Linux builds. They're for testers for now: not yet signed (Windows may show a
+SmartScreen warning: More info → Run anyway) and not yet tested in every DAW.
+
+| File | What's in it |
+| --- | --- |
+| `Kiln-Setup.exe` | **Windows**: installs the VST3 and CLAP plugins where DAWs look, and the standalone apps. Start here. |
+| `Kiln-windows-x64.zip`, `-CLAP.zip`, `-Standalone.zip` | Windows, to install by hand (steps inside). |
+| `Kiln-linux-x64.zip` | **Linux**: VST3 and LV2 (copy to `~/.vst3` and `~/.lv2`; steps inside). Or install with one line: `curl -fsSL https://raw.githubusercontent.com/ffejeroni/kiln-releases/main/install-linux.sh \| bash` (add `-s -- --all` after `bash` for CLAP and standalone). |
+| `Kiln-linux-x64-CLAP.zip`, `-Standalone.zip` | Linux CLAP (`~/.clap`) and standalone apps. |
+| `Kiln-mac-arm64-CLAP.zip`, `-Standalone.zip` | Mac CLAP and standalone apps (the menu-bar app installs AU and VST3). |
 
 ## Requirements
 
