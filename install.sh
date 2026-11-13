@@ -1,14 +1,14 @@
 #!/bin/bash
 # Kiln install: puts the Kiln menu-bar app in Applications and opens it.
 #
-#   curl -fsSL https://raw.githubusercontent.com/ffejeroni/kiln-releases/main/install.sh | bash
+#   curl -fsSL https://kilnplugin.com/install.sh | bash
 #
 # Downloading with curl (not a browser) means macOS doesn't quarantine the app, so there's no
 # "unidentified developer" block to click through. Safe to run again: it replaces Kiln.app with
 # the newest build. Your plugins and settings are left alone.
 set -euo pipefail
 
-ZIP_URL="https://github.com/ffejeroni/kiln-releases/releases/download/latest/Kiln-Installer.zip"
+ZIP_URL="https://kilnplugin.com/dl/Kiln-Installer.zip"
 
 say()  { printf '\033[1m%s\033[0m\n' "$*"; }
 fail() { printf '\033[31m%s\033[0m\n' "$*" >&2; exit 1; }

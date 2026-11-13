@@ -2,7 +2,7 @@
 # Kiln for Linux: downloads the newest build and installs the plug-ins into your home folder.
 # No root, no package manager: everything goes in ~/.vst3, ~/.lv2 and (if asked) ~/.clap.
 #
-#   curl -fsSL https://raw.githubusercontent.com/ffejeroni/kiln-releases/main/install-linux.sh | bash
+#   curl -fsSL https://kilnplugin.com/install-linux.sh | bash
 #
 # Options go after "bash -s --", for example:
 #   curl -fsSL .../install-linux.sh | bash -s -- --all
@@ -14,7 +14,7 @@
 # Safe to run again: it replaces the Kiln plug-ins with the newest build and leaves everything else alone.
 set -euo pipefail
 
-BASE="${KILN_BASE:-https://github.com/ffejeroni/kiln-releases/releases/download/latest}"
+BASE="${KILN_BASE:-https://kilnplugin.com/dl}"
 APPS="$HOME/.local/share/kiln/apps"
 
 say()  { printf '\033[1m%s\033[0m\n' "$*"; }

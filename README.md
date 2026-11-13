@@ -26,12 +26,14 @@ big controls instead of a wall of numbers, and each comes in its own colour.
 
 ## Install
 
+> **While we're testing:** the extra steps below (Terminal lines, security warnings) are only for now. Once Kiln launches it's signed, and it installs like any other program you download.
+
 **With one line in Terminal (easiest)**
 
 Open Terminal (Applications → Utilities → Terminal), paste this and press Return:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ffejeroni/kiln-releases/main/install.sh | bash
+curl -fsSL https://kilnplugin.com/install.sh | bash
 ```
 
 It downloads the Kiln menu-bar app, puts it in Applications and opens it. Because Terminal does
@@ -51,8 +53,9 @@ The flame changes to a circled flame when updates are waiting. If Logic was open
    ```bash
    xattr -dr com.apple.quarantine /Applications/Kiln.app
    ```
-   or try to open it once, then go to **System Settings → Privacy & Security** and click
-   **Open Anyway**.
+   On current macOS (Sequoia, Tahoe) that line is the only way in: opening it first just gives
+   **Close** or **Move to Trash** (click Close). Older versions may also offer **Open Anyway** in
+   **System Settings → Privacy & Security**.
 4. Click the flame in the menu bar and install the plugins, as above.
 
 **By hand**
@@ -76,7 +79,7 @@ SmartScreen warning: More info → Run anyway) and not yet tested in every DAW.
 | --- | --- |
 | `Kiln-Setup.exe` | **Windows**: installs the VST3 and CLAP plugins where DAWs look, and the standalone apps. Start here. |
 | `Kiln-windows-x64.zip`, `-CLAP.zip`, `-Standalone.zip` | Windows, to install by hand (steps inside). |
-| `Kiln-linux-x64.zip` | **Linux**: VST3 and LV2 (copy to `~/.vst3` and `~/.lv2`; steps inside). Or install with one line: `curl -fsSL https://raw.githubusercontent.com/ffejeroni/kiln-releases/main/install-linux.sh \| bash` (add `-s -- --all` after `bash` for CLAP and standalone). |
+| `Kiln-linux-x64.zip` | **Linux**: VST3 and LV2 (copy to `~/.vst3` and `~/.lv2`; steps inside). Or install with one line: `curl -fsSL https://kilnplugin.com/install-linux.sh \| bash` (add `-s -- --all` after `bash` for CLAP and standalone). |
 | `Kiln-linux-x64-CLAP.zip`, `-Standalone.zip` | Linux CLAP (`~/.clap`) and standalone apps. |
 | `Kiln-mac-arm64-CLAP.zip`, `-Standalone.zip` | Mac CLAP and standalone apps (the menu-bar app installs AU and VST3). |
 
