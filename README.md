@@ -77,7 +77,7 @@ SmartScreen warning: More info → Run anyway) and not yet tested in every DAW.
 
 | File | What's in it |
 | --- | --- |
-| `Kiln-Setup.exe` | **Windows**: installs the VST3 and CLAP plugins where DAWs look, and the standalone apps. Start here. |
+| `Kiln-Setup.exe` | **Windows**: installs the VST3 and CLAP plugins where DAWs look (or folders you choose), the standalone apps, and the Kiln tray app that tells you about updates. Start here. |
 | `Kiln-windows-x64.zip`, `-CLAP.zip`, `-Standalone.zip` | Windows, to install by hand (steps inside). |
 | `Kiln-linux-x64.zip` | **Linux**: VST3 and LV2 (copy to `~/.vst3` and `~/.lv2`; steps inside). Or install with one line: `curl -fsSL https://kilnplugin.com/install-linux.sh \| bash` (add `-s -- --all` after `bash` for CLAP and standalone). |
 | `Kiln-linux-x64-CLAP.zip`, `-Standalone.zip` | Linux CLAP (`~/.clap`) and standalone apps. |
